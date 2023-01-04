@@ -76,7 +76,8 @@ var countConsistentStrings = function (allowed, words) {
   }
   return count;
 };
-//////
+///////
+git revert <commit_hash>
 /**
  * @param {string} allowed
  * @param {string[]} words
