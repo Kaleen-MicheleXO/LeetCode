@@ -58,6 +58,11 @@
 // addressId = 1 contains information about the address of personId = 2. -->
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a988e8d3efa3e7e9214cd02227703ebf4034860f
  Select Person.firstName, Person.LastName ,Address.city, Address.state
  From Person
  Left Join Address ON Person.personId =Address.personId
