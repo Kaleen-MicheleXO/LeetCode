@@ -31,7 +31,6 @@
 // 1 <= message.length <= 2000
 // message consists of lowercase English letters and ' '.
 // Accepted
-
 /**
  * @param {string} key
  * @param {string} message
