@@ -77,12 +77,12 @@ var countConsistentStrings = function (allowed, words) {
   return count;
 };
 ///////
-git revert <commit_hash>
 /**
  * @param {string} allowed
  * @param {string[]} words
  * @return {number}
  */
+
 var countConsistentStrings = function (allowed, words) {
   let w = words.map((x) => x.split("").every((k) => allowed.includes(k)));
   return w.filter((x) => x === true).length;
