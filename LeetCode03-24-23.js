@@ -39,3 +39,7 @@ var repeatedNTimes = function (nums) {
 
   return obj;
 };
+
+var repeatedNTimes = function (nums) {
+  return nums.filter((x, i, a) => a.indexOf(x) !== a.lastIndexOf(x))[0];
+};
