@@ -33,7 +33,6 @@
 // - Transform #2: 33 ➝ 3 + 3 ➝ 6
 // Thus the resulting integer is 6.
 // Example 3:
-
 // Input: s = "zbax", k = 2
 // Output: 8
 
